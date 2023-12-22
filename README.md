@@ -1,4 +1,4 @@
-# Otilia Stretcu's personal webpage
+# Yahui Fu's personal webpage
 
 This is the personal website of Yahui Fu, which can be visualized at [https://fuyahuii.github.io/](https://fuyahuii.github.io/).
 
