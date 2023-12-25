@@ -398,89 +398,51 @@
   </div>
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
     
-    <div id="stretcu2021c2f" class="col p-0">
-      <h5 class="title mb-0">Coarse-to-Fine Curriculum Learning.</h5>
+    <div id="contextandknowledge" class="col p-0">
+      <h5 class="title mb-0">Context-and Knowledge-Aware Graph Convolutional Network for Multimodal Emotion Recognition.</h5>
       <div class="author">
-        
-          
-          
-            
-              
-                <nobr><em>Otilia Stretcu</em>,</nobr>
-              
-            
-          
-        
-          
-          
-            
-              
-                
-                  <nobr><a href="http://platanios.org/" target="_blank">Emmanouil Antonios Platanios</a>,</nobr>
-                
-              
-            
-          
-        
-          
-          
-            
-              
-                
-                  <nobr><a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a>,</nobr>
-                
-              
-            
-          
-        
-          
-          
-            
-              and
-              
-                
-                  <nobr><a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank">Barnabás Póczos</a>.</nobr>
-                
-              
-            
-          
-        
+        <nobr><em>Yahui Fu</em>,</nobr>
+        <nobr><a href="https://fp.jaist.ac.jp/public/Default2.aspx?id=670&l=1" target="_blank">Shogo Okada</a>,</nobr>
+        <nobr><a href="http://cic.tju.edu.cn/faculty/wanglongbiao/wang.html" target="_blank">Longbiao Wang</a>,</nobr>
+        <nobr><a href="https://www.researchgate.net/profile/Lili-Guo-11" target="_blank">Lili Guo</a>,</nobr>
+        <nobr>Yaodong Song</nobr>
+        <nobr>Jiaxing Liu</nobr>    
+        <nobr><a href="https://researchmap.jp/jdang" target="_blank">Jianwu Dang</a>,</nobr>                    
+</div>
       </div>
 
       <div>
-        <p class="periodical font-italic">
-          
-            In ArXiv Preprint
-          
-          
-            2021.
-          
+        <p class="periodical font-italic">  
+          IEEE MultiMedia 29 (3), 91-100
+          2022.  
         </p>
       </div>
     
       <div class="col p-0">
         
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#stretcu2021c2f-abstract" role="button" aria-expanded="false" aria-controls="stretcu2021c2f-abstract">Abstract</a>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" href="http://arxiv.org/abs/2106.04072" target="_blank">arXiv</a>
-        
-        
-        
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#contextandknowledge-abstract" role="button" aria-expanded="false" aria-controls="contextandknowledge-abstract">Abstract</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/Context-_and_Knowledge-Aware_Graph_Convolutional_Network_for_Multimodal_Emotion_Recognition.pdf" target="_blank">PDF</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/fuyahuii/ConSK-GCN" target="_blank">code</a>
+    
       </div>
     
       
       <div class="col mt-2 p-0">
-        <div id="stretcu2021c2f-abstract" class="collapse">
+        <div id="contextandknowledge-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            When faced with learning challenging new tasks, humans often follow sequences of steps that allow them to incrementally build up the necessary skills for performing these new tasks. However, in machine learning, models are most often trained to solve the target tasks directly.Inspired by human learning, we propose a novel curriculum learning approach which decomposes challenging tasks into sequences of easier intermediate goals that are used to pre-train a model before tackling the target task. We focus on classification tasks, and design the intermediate tasks using an automatically constructed label hierarchy. We train the model at each level of the hierarchy, from coarse labels to fine labels, transferring acquired knowledge across these levels. For instance, the model will first learn to distinguish animals from objects, and then use this acquired knowledge when learning to classify among more fine-grained classes such as cat, dog, car, and truck. Most existing curriculum learning algorithms for supervised learning consist of scheduling the order in which the training examples are presented to the model. In contrast, our approach focuses on the output space of the model. We evaluate our method on several established datasets and show significant performance gains especially on classification problems with many labels. We also evaluate on a new synthetic dataset which allows us to study multiple aspects of our method.
+            This work proposes an approach for emotion recognition in conversation that
+            leverages context modeling, knowledge enrichment, and multimodal (text and
+            audio) learning based on a graph convolutional network (GCN). We first construct
+            two distinctive graphs for modeling the contextual interaction and knowledge
+            dynamic. We then introduce an affective lexicon into knowledge graph building to
+            enrich the emotional polarity of each concept, that is the related knowledge of each
+            token in an utterance. Then, we achieve a balance between the context and the
+            affect-enriched knowledge by incorporating them into the new adjacency matrix
+            construction of the GCN architecture, and teach them jointly with multiple
+            modalities to effectively structure the semantics-sensitive and knowledge-sensitive
+            contextual dependence of each conversation. Our model outperforms the state-ofthe-art benchmarks by over 22.6% and 11% relative error reduction in terms of
+            weighted-F1 on the IEMOCAP and MELD databases, respectively, demonstrating the
+            superiority of our method in emotion recognition.
           </div>
         </div>
       </div>
