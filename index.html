@@ -243,6 +243,28 @@
 <div class="visitor-map">
   <script async id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=PWsDaAE4o-H19Z509pvQ-xX1Rnxl3BnebZNGapTeaEA"></script>
 </div>
+
+<style>
+  .visitor-map{
+    max-width:360px;  
+    margin:24px auto;
+  }
+  .visitor-map iframe,
+  .visitor-map canvas,
+  .visitor-map > div{
+    width:100% !important;
+    height:220px !important; 
+    display:block;
+  }
+  @media (min-width:768px){
+    .visitor-map{ max-width:480px; }
+    .visitor-map iframe,
+    .visitor-map canvas,
+    .visitor-map > div{ height:260px !important; }
+  }
+</style>
+
+
   <!-- Footer -->
   <footer>
     &copy; Copyright 2023 Yahui Fu.
