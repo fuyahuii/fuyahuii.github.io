@@ -15,16 +15,6 @@
   <link rel="stylesheet" href="/assets/css/academicons.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/">
-  
-  <style>
-    /* Custom responsive styles for better mobile display */
-    @media (max-width: 767px) {
-      .profile-img {
-        max-width: 200px !important;
-        margin: 0 auto 1.5rem auto !important;
-      }
-    }
-  </style>
 </head>
 <body>
   <!-- Header -->
@@ -124,16 +114,12 @@
 
 <!-- Introduction -->
 
-<div class="row">
-    <!-- Profile Image Column - appears first on mobile, second on desktop -->
-    <div class="col-12 col-md-4 col-lg-3 order-1 order-md-2 mb-3 mb-md-0">
-      <div class="text-center">
-        <img class="profile-img img-fluid" src="/assets/img/me.jpeg" style="max-width: 280px; border-radius: 8px;" />
-      </div>
-    </div>
+<div style="display: flex; flex-wrap: wrap;">
+    <div class="text-justify p-0">
+      <div class="col-xs-12 col-sm-3 p-0 pt-2 pb-sm-2 pb-4 pl-sm-4 text-center; margin-top: -10px;" style="float: right;max-width: 200px;">
+          <img class="profile-img img-responsive" src="/assets/img/me.jpeg" />
+        </div>
 
-    <!-- Text Content Column - appears second on mobile, first on desktop -->
-    <div class="col-12 col-md-8 col-lg-9 order-2 order-md-1 text-justify">
         <p>
           I am a program-specific researcher at <a href="https://www.kyoto-u.ac.jp/en" target="_blank">Kyoto University</a> in Kyoto, Japan. I obtained my Ph.D. in Intelligence Science and Technology from Kyoto University under the supervision of <a href="http://sap.ist.i.kyoto-u.ac.jp/members/kawahara/" target="_blank">Prof. Tatsuya Kawahara</a>.
           My research focuses on Dialogue Systems, including empathetic dialogue generation, personality-aware conversational models, emotion recognition, and human-agent/robot interaction. I am also interested in explainable and controllable LLMs, particularly in causal reasoning and user-adaptive methods. 
@@ -246,7 +232,7 @@
         </span>
       </div>
       <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
-        <p>Thank you <a href="https://www.cs.cmu.edu/cmlh-cfp" target="https://www.cs.cmu.edu/cmlh-cfp">CMLH</a> for the <a href="https://www.cs.cmu.edu/cmlh-cfp/fellowships" target="https://www.cs.cmu.edu/cmlh-cfp/fellowships">fellowship in digital health</a> in support of our work on Parkinson's disease.
+        <p>Thank you <a href="https://www.cs.cmu.edu/cmlh-cfp" target="https://www.cs.cmu.edu/cmlh-cfp">CMLH</a> for the <a href="https://www.cs.cmu.edu/cmlh-cfp/fellowships" target="https://www.cs.cmu.edu/cmlh-cfp/fellowships">fellowship in digital health</a> in support of our work on Parkinson’s disease.
 </p>
       </div>
     </div>
